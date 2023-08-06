@@ -6,7 +6,7 @@ package section02;
 * 	Scanner 클래스를 사용하면 키보드로 입력한 텍스트, 숫자등
 * 	읽을수 있다.
 *
-*
+* 깃테스트
 */
 
 import java.util.Scanner;
