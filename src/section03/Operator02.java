@@ -1,0 +1,30 @@
+package section03;
+ /*
+  * 2. 증강연산자
+  *   ++ : 피연산자 1씩 증가.
+  *   -- : 피연산자 1씩 감소.
+  * 
+  * 
+  */
+
+public class Operator02 {
+	public static void main(String[] args) {
+	
+		int num = 0;
+		
+		num = num + 1;
+		System.out.println(num); // 1
+		num++;
+		System.out.println(num); // 2
+		
+		// 전위 증감연산자 - 명령어가 실행전 1증가
+		System.out.println(++num); // 3
+		// 후위 증감연산자 - 명령어가 실행후 1증가
+		System.out.println(num++); // 3
+		System.out.println(num); // 4
+		
+		
+ 		
+		
+	}
+}
